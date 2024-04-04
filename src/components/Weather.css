@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.widget{
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.461);
+    
+    width: 30vw;
+    height: 87vh;
+    border-radius: 8px;
+    box-shadow: 5px 5px 12px black;
+}
+.searchbox{
+ border: none;
+ border-radius: 15px;
+ padding: 8px;
+ width: 22vw;
+ 
+ color: black;
+ 
+}
+.tempdiv{
+    background-color: rgba(250, 249, 249, 0.58);
+    height: 30vh;
+    margin: 4%;
+    padding: 2%;
+    border-radius: 8px;
+}
+.temp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+.tempcel{
+    display: grid;
+    
+}
+.tempcel p{
+    font-size:45px;
+    text-align:left;
+    margin: 0;
+}
+.tempIcon img{
+    height: 100px;
+    
+}
+.minmaxtemp{
+    font-size: small;
+}
+.status{
+    margin: 0;
+}
+#degcel{
+    font-size: small;
+}
+.otherparam{
+    display: flex;
+    padding: 2%;
+    margin: 3%;
+    border-radius: 8px;
+    height: 40vh;
+    background-color: rgba(58, 57, 57, 0.493);
+    color: aliceblue;
+}
+.param{
+   width: 12vw;
+   
+   margin:3%;
+   padding:1%;
+}
+#searchicon{
+    background-color: rgba(255, 255, 255, 0.635);
+    border-radius: 20px;
+    padding: 6px;
+    margin: 5px;
+    border: 1px solid white;
+}
+#searchicon:hover{
+    border: 1px solid black;
+    transition: 0.4s all ease;
+}
